@@ -10,7 +10,7 @@ export default class ChatContent extends Component {
     {
       key: 1,
       image:
-        "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
       msg: "Hi Tim, How are you?",
     },
@@ -101,20 +101,7 @@ export default class ChatContent extends Component {
             <div className="current-chatting-user">
               <p>Tim Hover</p>
             </div>
-          </div>
-
-          <div className="options">
-            <div className="settings">
-              <button className="btn-nobg">
-                <i className="fa fa-phone"></i>
-              </button>
-            </div>
-            <div className="settings">
-              <button className="btn-nobg">
-                <i className="fa fa-video-camera"></i>
-              </button>
-            </div>
-          </div>
+          </div> 
         </div>
         <div className="content__body">
           <div className="chat__items">

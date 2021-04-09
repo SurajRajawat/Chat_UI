@@ -5,7 +5,7 @@ html,body{
   height: 100%;
 }
 #root{
-  background-color: aliceblue;
+  background-color:#08080800;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,9 +17,8 @@ html,body{
   background-color: lightgray;
   min-height: 80vh;
   width: 100%;
-  padding: 20px;
+  padding: 12px;
   display: flex;
-  padding: left 6px;
 }
 .btn {
   background-color: #fff;
@@ -75,4 +74,11 @@ html,body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #3b5bfe;
+}
+@media screen and (max-width: 600px) {
+  .__main{
+    padding: 0%;
+    height: 100%;
+    max-width: 100%;
+  }
 }

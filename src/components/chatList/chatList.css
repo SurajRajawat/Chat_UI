@@ -1,13 +1,13 @@
 .main__chatlist {
   border-right: 1px solid #ebe7fb;
-  padding: 10px;
+  padding: 5px;
   padding-right: 5px;
   background-color: #252b32;
   color: rgb(79, 165, 118);
-  width: 20%;
+  width: 25%;
 }
 .search_wrap {
-  background-color:	#363d45;
+  background-color:	#ecefff;
   border-radius: 20px;
   height: 30px;
 }
@@ -17,23 +17,22 @@
   padding: 10px;
   outline: none;
   width: 66%;
-  padding-right: 0;
   color: #f3f1fc;
 }
 .search-btn {
   height: 30px;
   border: none;
-  background-color: inherit;
+  background-color: transparent;
   outline: none;
   width: 20%;
   cursor: pointer;
   font-size: 20px;
-  /* float: right; */
+  float: right;
 }
 .chatlist__items {
   margin-top: 30px;
   overflow: auto;
-  max-height: calc(100vh - calc(100vh / 2));
+  max-height: 69vh;
 }
 
 .chatlist__item {
@@ -122,4 +121,15 @@
   border-radius: 50%;
   width: 100%;
   height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .main__chatlist {
+    width: 100%;
+    border:none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .chatlist__items {
+    max-height: 100vh;
+  }
 }
